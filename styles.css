@@ -1,0 +1,175 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+.content {
+  max-width: 1440px;
+  padding: 35px 135px;
+  margin: 0 auto;
+  background-color: #3399CC;
+  border: 25px solid #2B81AC;
+}
+
+.title {
+  padding: 60px 0 35px 0;
+
+  h2,
+  img {
+    display: inline-block;
+  }
+
+
+  h2 {
+    font-size: 21px;
+
+    font-weight: 400;
+  }
+
+  img {
+    position: relative;
+    top: 6px;
+    width: 35px;
+    height: 34px;
+    margin-left: 6px;
+
+  }
+}
+
+.container {
+  font-size: 0;
+
+  .name {
+    display: block;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    padding-top: 15px;
+  }
+
+  ul {
+    background-color: #FFFFFF;
+    padding: 4px;
+  }
+
+  li {
+    text-align: center;
+    height: 147px;
+    padding-top: 26px;
+    font-size: 22px;
+    transition: all 0.3s ease-in;
+  }
+
+  li:hover,
+  :not(:hover)>li {
+    cursor: pointer;
+    filter: saturate(1.5);
+  }
+
+  li img {
+    margin-top: 11px;
+    vertical-align: middle;
+    width: 48px;
+    height: 40px;
+  }
+
+  .lisbon {
+    display: inline-block;
+    background-color: #3499CC;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: calc(50% - 3px);
+  }
+
+  .paris {
+    display: inline-block;
+    background-color: #33CCCC;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: calc(25% - 3px);
+  }
+
+  .belgrade {
+    display: inline-block;
+    background-color: #996699;
+    width: calc(25% - 3px);
+  }
+
+  .venice {
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #C24747;
+    width: calc(25% - 3px);
+  }
+
+  .tel-avive {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #E2674A;
+    display: inline-block;
+    width: calc(25% - 3px);
+  }
+
+  .cair {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #FFCC66;
+    display: inline-block;
+    width: calc(25% - 3px);
+  }
+
+  .new-york {
+    background-color: #99CC99;
+    display: inline-block;
+    width: calc(25% - 3px);
+  }
+
+  .new-delhi {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #669999;
+    display: inline-block;
+    width: calc(25% - 3px);
+  }
+
+  .san {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #CC6699;
+    display: inline-block;
+    width: calc(50% - 3px);
+  }
+
+  .tokyo {
+    background-color: #339966;
+    display: inline-block;
+    width: calc(25% - 3px);
+  }
+
+  .sydney {
+    background-color: #666699;
+    display: inline-block;
+    width: calc(100% - 1px);
+  }
+}
+
+footer {
+  p {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+}
